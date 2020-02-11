@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+body {
+	background-color: black;
+}
+
+.app-view-container {
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header header'
+    'menu main main main main main right'
+    'footer footer footer footer footer footer footer';
+  grid-gap: 0px;
+  background-color: #2196F3;
+  /*padding: 10px;*/
+}
+
+.grid-container {
+    max-width: 640px;
+    max-width: 480px;
+}
+
+.grid-container > div {
+  background-color: white;
+  /*text-align: center;*/
+  /*padding: 20px 0;*/
+  font-size: 30px;
+}
+
+.header {
+	padding: 0px;
+}
+hr {
+	margin: 5px 0;
+}
+
+.grid-container > div.avatar {
+    padding: 30px 0;
+}
+.initials {
+    background-color: grey;
+    background-image: linear-gradient(0deg, grey, darkgray); /* Standard syntax (must be last)*/
+    border-radius: 100%;
+    padding: 15px;
+    color: white;
+}
+
+.message-text {
+	color:grey;
+    font-size: 20px;
+}
+
+.grid-container > div.time {
+	/*text-align: right;*/
+    color:grey;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+<br><br><br>
+
+<div class='app-view-container'>
+
+    <div class="grid-container">
+        <!-- <div class="item1 header"><hr></div> -->
+        <div class="item2 avatar"><span class='initials w3-myfont'>OJ</span></div>
+        <div class="item3"><div class='name'>Oliver Jude</div><div class='message-text'>Thank you</div></div>
+        <div class="item4 time">9:31 AM &nbsp; &gt;</div>
+        <div class="item5"><hr></div>
+      </div>
+      
+      <div class="grid-container">
+          <!-- <div class="item1 header"><hr></div> -->
+          <div class="item2 avatar"><span class='initials w3-myfont'>OJ</span></div>
+          <div class="item3"><div class='name'>Oliver Jude</div><div class='message-text'>Thank you</div></div>
+          <div class="item4 time">9:31 AM &nbsp; &gt;</div>
+          <div class="item5"><hr></div>
+        </div>
+      
+        <div class="grid-container">
+          <!-- <div class="item1 header"><hr></div> -->
+          <div class="item2 avatar"><span class='initials w3-myfont'>OJ</span></div>
+          <div class="item3"><div class='name'>Oliver Jude</div><div class='message-text'>Thank you</div></div>
+          <div class="item4 time">9:31 AM &nbsp; &gt;</div>
+          <div class="item5"><hr></div>
+        </div>
+      
+        <div class="grid-container">
+          <!-- <div class="item1 header"><hr></div> -->
+          <div class="item2 avatar"><span class='initials w3-myfont'>OJ</span></div>
+          <div class="item3"><div class='name'>Oliver Jude</div><div class='message-text'>Thank you</div></div>
+          <div class="item4 time">9:31 AM &nbsp; &gt;</div>
+          <div class="item5"><hr></div>
+        </div>
+      
+        <div class="grid-container">
+          <!-- <div class="item1 header"><hr></div> -->
+          <div class="item2 avatar"><span class='initials w3-myfont'>OJ</span></div>
+          <div class="item3"><div class='name'>Oliver Jude</div><div class='message-text'>Thank you</div></div>
+          <div class="item4 time">9:31 AM &nbsp; &gt;</div>
+          <div class="item5"><hr></div>
+        </div>
+      
+        <div class="grid-container">
+          <!-- <div class="item1 header"><hr></div> -->
+          <div class="item2 avatar"><span class='initials w3-myfont'>OJ</span></div>
+          <div class="item3"><div class='name'>Oliver Jude</div><div class='message-text'>Thank you</div></div>
+          <div class="item4 time">9:31 AM &nbsp; &gt;</div>
+          <div class="item5"><hr></div>
+        </div>
+
+</div>
+
+</body>
+</html>
